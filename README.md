@@ -4,9 +4,8 @@
   <img height="100" alt="image" src="" />
 </div>
 
-
-
 by Kittithuch Somarkphan
+
 
 ## Project Overview
 
@@ -33,4 +32,21 @@ multi-agentic-rag/
     ├── retriever.py                  # Text chunking and keyword retrieval logic
     ├── data_retriever_agent.py       # Agent for retrieving relevant snippets
     └── report_generator_agent.py     # Agent for generating the final answer
+```
+
+
+## Workflow
+
+```
+User Question
+    ↓
+Data Retriever Agent
+    ↓
+Retrieval Tool (Keyword or Hybrid search)
+    ↓
+Relevant Raw Snippets
+    ↓
+Report Generator Agent
+    ↓
+Final Answer
 ```
