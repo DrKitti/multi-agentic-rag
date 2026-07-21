@@ -4,6 +4,7 @@ from pathlib import Path
 
 
 KNOWLEDGE_BASE_PATH = Path(__file__).resolve().parents[1] / "knowledge_base.txt"
+NO_RESULTS_MESSAGE = "No relevant information was found in the knowledge base."
 STOPWORDS = {"a", "an", "and", "for", "in", "is", "of", "on", "the", "to", "what", "which", "with"}
 
 
@@ -50,6 +51,10 @@ def retrieve(query: str, top_k: int = 3) -> list[str]:
 
 if __name__ == "__main__":
     query = " ".join(sys.argv[1:]) or input("Enter your query: ")
+    results = retrieve(query)
 
-    for index, snippet in enumerate(retrieve(query), start=1):
+    if not results:
+        print(NO_RESULTS_MESSAGE)
+
+    for index, snippet in enumerate(results, start=1):
         print(f"\n[{index}]\n{snippet}")
