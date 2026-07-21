@@ -1,0 +1,50 @@
+TechNova Product Knowledge Base
+
+This knowledge base contains product information for three computer models sold by TechNova: the NovaBook Air 14, NovaBook Pro 16, and NovaStation Creator X. The information is intended for customer support, product recommendation, and sales assistance use cases.
+
+Product: NovaBook Air 14
+Category: Lightweight laptop
+Price: 31,900 THB
+Best for: Students, office workers, frequent travelers, and users who need a portable computer for everyday productivity.
+
+The NovaBook Air 14 is a thin and lightweight laptop designed for users who prioritize portability and battery life. It weighs 1.25 kg and has a 14-inch Full HD display with an anti-glare coating. The laptop uses an Intel Core i5 processor, 16 GB of RAM, and a 512 GB SSD. It is suitable for web browsing, document editing, video meetings, online classes, spreadsheet work, and light photo editing.
+
+The NovaBook Air 14 has an estimated battery life of up to 14 hours under normal office usage. It includes Wi-Fi 6, Bluetooth 5.3, two USB-C ports, one USB-A port, HDMI, and a headphone jack. The laptop does not include a dedicated graphics card, so it is not recommended for heavy gaming, 3D rendering, or advanced video production.
+
+Product: NovaBook Pro 16
+Category: Performance laptop
+Price: 56,900 THB
+Best for: Software developers, data analysts, engineers, designers, and power users who need stronger performance while still using a portable machine.
+
+The NovaBook Pro 16 is a high-performance laptop with a 16-inch 2.5K display, an Intel Core i7 processor, 32 GB of RAM, and a 1 TB SSD. It also includes an NVIDIA RTX 4060 GPU, making it suitable for programming, running local development environments, data analysis, machine learning experiments, video editing, and moderate 3D workloads.
+
+The NovaBook Pro 16 has an estimated battery life of up to 8 hours under mixed productivity usage. It includes Wi-Fi 6E, Bluetooth 5.3, three USB-C ports, one USB-A port, HDMI, an SD card reader, and a headphone jack. Because it has more powerful hardware, it is heavier than the Air model and weighs 2.05 kg.
+
+Product: NovaStation Creator X
+Category: Desktop workstation
+Price: 89,900 THB
+Best for: Professional creators, machine learning engineers, 3D artists, video production teams, and users who need maximum performance at a desk.
+
+The NovaStation Creator X is a desktop workstation built for demanding workloads. It includes an AMD Ryzen 9 processor, 64 GB of RAM, a 2 TB NVMe SSD, and an NVIDIA RTX 4080 GPU. It is suitable for 4K video editing, 3D rendering, local AI model experimentation, large data processing tasks, software builds, and professional creative workloads.
+
+The NovaStation Creator X does not include a monitor, keyboard, or mouse by default. It supports up to four external displays and includes Wi-Fi 6E, Bluetooth 5.3, Ethernet, multiple USB-A ports, multiple USB-C ports, HDMI, DisplayPort, and audio ports. Since it is a desktop computer, it is not portable and requires a constant power connection.
+
+Warranty Policy
+
+All TechNova computers include a standard one-year limited hardware warranty. The warranty covers manufacturing defects, hardware failures under normal use, and repair or replacement of faulty components. The warranty does not cover accidental damage, liquid damage, unauthorized repairs, cosmetic wear, software issues, or damage caused by misuse.
+
+Customers may purchase TechNova Care Plus within 30 days of buying a computer. TechNova Care Plus extends hardware coverage to three years and includes one accidental damage repair per year with a service fee. TechNova Care Plus costs 5,300 THB for the NovaBook Air 14, 8,900 THB for the NovaBook Pro 16, and 12,500 THB for the NovaStation Creator X.
+
+Return and Exchange Policy
+
+Customers may return a computer within 14 days of purchase if the product is in good condition and includes all original accessories, packaging, and proof of purchase. Refunds are processed to the original payment method. If a product has a confirmed hardware defect within 14 days, the customer may choose either a replacement or a refund.
+
+Opened products without defects may be subject to a 10 percent restocking fee. Customized configurations, clearance items, and damaged products are not eligible for return unless required by local consumer protection law.
+
+Recommendation Guidelines
+
+Recommend the NovaBook Air 14 when the customer needs a lightweight laptop for travel, school, business meetings, office documents, and long battery life. It is the most affordable and portable option, but it is not designed for heavy creative or gaming workloads.
+
+Recommend the NovaBook Pro 16 when the customer needs a balance between portability and performance. It is a strong choice for programming, data analysis, development tools, design work, and moderate GPU workloads. It is more expensive and heavier than the NovaBook Air 14, but much faster for professional tasks.
+
+Recommend the NovaStation Creator X when the customer needs the highest performance and does not need portability. It is the best option for advanced video editing, 3D rendering, machine learning experiments, and large workloads. It is the most expensive option and requires separate peripherals.
