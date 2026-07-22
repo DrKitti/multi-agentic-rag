@@ -117,6 +117,29 @@ Or you can run **retriever.py** instead of main.py for testing retrieval only.
 
 ## Result
 
+### Easy Question
+
+These questions contain clear keywords that directly match product details and policies in the knowledge base.
+
+![Easy question result](./result/easy%20question.png)
+
+### Budget-Based Recommendation
+
+Question that combines a budget limit with workload requirements and asks the system to recommend a suitable product.
+
+![Budget-based recommendation result](./result/budget.png)
+
+### Product Trade-Off
+
+Question about compares two products and asks the system to explain their differences in performance, portability, and price.
+
+![Product trade-off result](./result/trade%20off.png)
+
+### Irrelevant Question
+
+These questions cover topics that are not included in the knowledge base. The system should report that no relevant information is available instead of making up an answer.
+
+![Irrelevant question result](./result/Irrelevant.png)
 
 ---
 
