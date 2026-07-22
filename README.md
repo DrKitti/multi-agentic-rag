@@ -4,9 +4,6 @@
   <img width="300" height="120" alt="logo BBL_eng_blue_1" src="https://github.com/user-attachments/assets/390cb6f9-05ba-4a59-b3b0-bafa6e1f1bd8" />
 </div>
 
-by Kittithuch Somarkphan
-
-
 ## Project Overview
 
 This project is a sequential Multi-Agent Retrieval-Augmented Generation (RAG) system built with LangChain using **gpt5-mini** as the LLM for the agents.
@@ -39,32 +36,19 @@ multi-agentic-rag/
 
 ## Workflow
 
-```
-User Question
-    ↓
-Data Retriever Agent
-    ↓
-Retrieval Tool (Keyword or Hybrid search)
-    ↓
-Relevant Raw Snippets
-    ↓
-Report Generator Agent
-    ↓
-Final Answer
-```
 
 ---
 
 ## How to run
 
-### 1 : Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/DrKitti/multi-agentic-rag.git
 cd multi-agentic-rag
 ```
 
-### 2 : Set Up Python Virtual Environment
+### 2. Set Up Python Virtual Environment
 
 **Windows (Command Prompt):**
 ```cmd
@@ -84,14 +68,14 @@ python3.11 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 3 : Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 Install all packages that needed for this project.
 
-### 4 : Configure environment variables
+### 4. Configure environment variables
 
 ```env
 TYPHOON_API_KEY=your_api_key_here
@@ -101,15 +85,10 @@ TYPHOON_MODEL=typhoon-v2.5-30b-a3b-instruct
 
 Setup API for LLM Calling.
 
-### 5 : Run Script
+### 5. Run Script
 
-**Windows (Command Prompt):**
+**Windows:**
 ```cmd
-python src\main.py "Which computer is best for students?"
-```
-
-**Windows (PowerShell):**
-```powershell
 python src\main.py "Which computer is best for students?"
 ```
 
