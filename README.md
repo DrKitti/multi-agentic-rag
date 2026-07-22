@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-This project is a sequential Multi-Agent Retrieval-Augmented Generation (RAG) system built with LangChain using **GPT5-mini** as the LLM for the agents.
+This project is a sequential Multi-Agent Retrieval-Augmented Generation (RAG) system built with LangChain using **GPT-5 mini** as the LLM for the agents.
 
 The system consists of two agents:
 - Data Retriever Agent : Searches the knowledge base and retrieves relevant information.
@@ -92,9 +92,9 @@ Install all packages that needed for this project.
 ### 4. Configure environment variables
 
 ```env
-TYPHOON_API_KEY=your_api_key_here
-TYPHOON_BASE_URL=https://api.opentyphoon.ai/v1
-TYPHOON_MODEL=typhoon-v2.5-30b-a3b-instruct
+AZURE_OPENAI_API_KEY=your_subscription_key_here
+AZURE_OPENAI_ENDPOINT=https://oaibblinnocandiddate01.openai.azure.com/
+AZURE_OPENAI_DEPLOYMENT=gpt-5-mini
 ```
 
 Setup API for LLM Calling.
