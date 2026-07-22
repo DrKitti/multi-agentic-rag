@@ -6,20 +6,16 @@ from langchain_openai import ChatOpenAI
 
 def create_llm() -> ChatOpenAI:
     load_dotenv()
-    api_key = os.getenv("AZURE_OPENAI_API_KEY")
+    api_key = os.getenv("TYPHOON_API_KEY")
 
     if not api_key:
-        raise ValueError("AZURE_OPENAI_API_KEY is missing. Add it to the .env file.")
-
-    endpoint = os.getenv(
-        "AZURE_OPENAI_ENDPOINT",
-        "https://oaibblinnocandiddate01.openai.azure.com/",
-    )
+        raise ValueError("TYPHOON_API_KEY is missing. Add it to the .env file.")
 
     return ChatOpenAI(
         api_key=api_key,
-        base_url=f"{endpoint.rstrip('/')}/openai/v1/",
-        model=os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-5-mini"),
-        max_completion_tokens=2048,
+        base_url=os.getenv("TYPHOON_BASE_URL", "https://api.opentyphoon.ai/v1"),
+        model=os.getenv("TYPHOON_MODEL", "typhoon-v2.5-30b-a3b-instruct"),
+        temperature=0.2,
+        max_completion_tokens=512,
         use_responses_api=False,
     )
