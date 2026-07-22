@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-This project is a sequential Multi-Agent Retrieval-Augmented Generation (RAG) system built with LangChain using **gpt5-mini** as the LLM for the agents.
+This project is a sequential Multi-Agent Retrieval-Augmented Generation (RAG) system built with LangChain using **GPT5-mini** as the LLM for the agents.
 
 The system consists of two agents:
 - Data Retriever Agent : Searches the knowledge base and retrieves relevant information.
@@ -35,8 +35,22 @@ multi-agentic-rag/
 ---
 
 ## Workflow
+<div align="center">
+  <img src="./system_workflow.png" alt="System Workflow" width="350"/>
+</div>
 
+How the System Works
+```
+The system processes each question in the following order:
 
+1. The user sends a question through main.py.
+2. LangChain passes the question to the Data Retriever Agent.
+3. The Data Retriever Agent calls the search tool once. The tool loads knowledge_base.txt, splits the content into chunks, and searches for matching keywords.
+4. The search tool returns the top three relevant chunks. These chunks are passed back as retrieved context without being rewritten or summarized.
+5. The Report Generator Agent receives the original question and the retrieved context. It uses only this context to create a clear final answer.
+6. If no relevant information is found, the Report Generator Agent tells the user that the knowledge base does not contain the requested information instead of making up an answer.
+7. main.py returns the final answer to the user.
+```
 ---
 
 ## How to run
